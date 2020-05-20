@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install salt-minion
+sudo apt-get install salt-minion -y
 
 echo "Anna masterin IP:"
 read MASTERIP
